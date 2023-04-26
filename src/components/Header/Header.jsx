@@ -1,16 +1,26 @@
 
 // import Logo from '../Logo/Logo';
-// import Search from '../Search/Search';
-import './index.css';
+import s from './Header.module.css';
+import cn from 'classnames';
 
 
 
-const Header = ({children}) => {
+
+const Header = ({user, updateUserHandle, children}) => {
+    const handleClickButtonEdit = (e) => {
+        e.preventDefault();
+        updateUserHandle({name: "Арсений Филимонов", about: 'Разработчик'});
+    }
     return (
-        <header className='header'>
+        <header className={cn(s.header, 'js-click')}>
             <div className="container">
-                <div className="header__wrapper">
-                {children}
+                {user?.email && <span>{user?.email}</span>}
+                {user?.name ? <span>{user?.name}</span> : null}
+
+                <button onClick={handleClickButtonEdit}>Изменить</button>
+
+                <div className={s.wrapper}>
+                    {children}
                 </div>
             </div>
         </header>

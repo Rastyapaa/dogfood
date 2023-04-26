@@ -1,16 +1,17 @@
 import './index.css';
-import Card from '../Card/Card';
-import data from '../../assets/data.json'
+import Card from "../Card/Card";
 
-const CardList = ({ goods }) => {
-       
+
+const CardList = ({goods, currentUser, onProductLike}) => {
+
+
     return (
         <div className='cards'>
-           {goods.map((el, index) => {
-            return (
-                <Card key={index} {...el} />
-            )
-           })}
+            {goods.map(el => {
+                return (
+                    <Card key={el._id} {...el} onProductLike={onProductLike} currentUser={currentUser} />
+                )
+            }) }
         </div>
     );
 };
