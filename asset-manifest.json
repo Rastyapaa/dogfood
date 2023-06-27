@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dogfood/static/css/main.23f0d3da.css",
+    "main.js": "/dogfood/static/js/main.b954de45.js",
+    "static/media/logo.svg": "/dogfood/static/media/logo.163b1aa1deeeeba45908434aabd1c807.svg",
+    "static/media/instagram.svg": "/dogfood/static/media/instagram.54cbf40d1b69370b6a2ec029eefc269c.svg",
+    "static/media/vk.svg": "/dogfood/static/media/vk.5a6b12bf142f67e2138c1e6c69952975.svg",
+    "static/media/viber.svg": "/dogfood/static/media/viber.b4234cd18a8ffefb8ebb172506996cea.svg",
+    "static/media/whatsapp.svg": "/dogfood/static/media/whatsapp.51cbd71440eaa90946070b8848c12129.svg",
+    "static/media/ic-favorites.svg": "/dogfood/static/media/ic-favorites.375b91b811f96dce8af11961c7381056.svg",
+    "static/media/ic-close-input.svg": "/dogfood/static/media/ic-close-input.3a0ccac8fef194f77b2e145a6411feca.svg",
+    "static/media/ic-search.svg": "/dogfood/static/media/ic-search.3bf12e732cb7f2edfa13ee4b0ea3eeeb.svg",
+    "index.html": "/dogfood/index.html",
+    "static/media/telegram.svg": "/dogfood/static/media/telegram.95a5ca8a1ae0a13c18da2bca3f249bf5.svg",
+    "main.23f0d3da.css.map": "/dogfood/static/css/main.23f0d3da.css.map",
+    "main.b954de45.js.map": "/dogfood/static/js/main.b954de45.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23f0d3da.css",
+    "static/js/main.b954de45.js"
+  ]
+}
